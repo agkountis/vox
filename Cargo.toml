@@ -1,0 +1,9 @@
+[workspace]
+members = [
+    "vox-cli",
+    "vox-tts",
+    "vox-api-gateway",
+    "vox-tts-service",
+    "vox-stt-service",
+    "vox-gpt-service",
+]

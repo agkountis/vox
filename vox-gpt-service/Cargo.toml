@@ -1,0 +1,16 @@
+[package]
+name = "vox-gpt-service"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+actix-web = "4.3.0"
+actix-cors = "0.6.4"
+serde = { version = "1.0.152", features = ["derive"]}
+serde_json = "1.0.91"
+log = "0.4"
+env_logger = "0.10.0"
+futures-util = "0.3.26"
+async-openai = "0.6.0"
